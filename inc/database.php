@@ -64,3 +64,7 @@ function find($table = null, $id = null){
     close_database($database);
     return $found;
 }
+
+function find_all($table){
+    return find($table);
+}
